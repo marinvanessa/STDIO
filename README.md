@@ -42,9 +42,9 @@ so_fopen | so_stdio.c | Gets the flags for opening a file, allocates memory for 
 so_fclose | so_stdio.c | Flushes the buffer associated with the file, closes the opened stream and frees the memory of the file structure
 so_fileno | so_stdio.c | Returns the file descriptor
 so_fgetc | so_stdio.c | Gets a byte from the buffer associated with a file
-so_fread | so_stdio.c | Gets n elements of specified size from a file (byte by byte -- is buffered)
+so_fread | so_stdio.c | Gets n elements of specified size from a file
 so_putc | so_stdio.c | Puts a byte in the buffer associated with a file
-so_fwrite | so_stdio.c | Puts n elements of specified size to a file (byte by byte -- is buffered)
+so_fwrite | so_stdio.c | Puts n elements of specified size to a file
 so_fflush | so_stdio.c | Flushes the buffer associated to a file
 so_fseek | so_stdio.c | Moves the cursor associated to a file
 so_ftell | so_stdio.c | Returns the position of the file cursor
